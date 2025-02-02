@@ -1,5 +1,5 @@
 # AutoMax_Django_Project
-AutoMax - Best Deal for your car
+**AutoMax - Best Deal for your car**
 This web application provides best deals for the buyer and the seller.
 It is a Django based web project using Python, HTML, CSS, and BootStrap.
 
