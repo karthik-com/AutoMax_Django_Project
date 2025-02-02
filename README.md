@@ -5,17 +5,23 @@ It is a Django based web project using Python, HTML, CSS, and BootStrap.
 
 Steps to start your django project:
 1. Install django using command prompt
-     pip install Django
+     >>pip install Django
 2. Start a project
-     django-admin startproject automax
+     >>django-admin startproject automax
 3. Change directory to automax
-     cd automax
+     >>cd automax
 4. Create apps
-     python manage.py startapp main
-     python manage.py startapp users
+     >>python manage.py startapp main
+     >>python manage.py startapp users
 5. Add apps to INSTALLED_APPS variable in automax/settings.py
 6. (Optional)(Recommended) Create virtual environment
-     pip install virtualenv
-     virtualenv env_name
-     env_name\Scripts\activate
+     >>pip install virtualenv
+     >>virtualenv env_name
+     >>env_name\Scripts\activate
 7. Install django again in virtual environment. Also install required modules in virtual environment.
+8. Add models to database
+     >>python manage.py makemigrations
+     >>python manage.py migrate
+9. Run server
+     >>python manage.py runserver
+     
