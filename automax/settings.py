@@ -146,7 +146,7 @@ EMAIL_HOST = 'smtp.mailgun.org'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'postmaster@sandbox425024958da5476cb3ea1eaac05a9a98.mailgun.org'
-EMAIL_HOST_PASSWORD = '321e7087b11f2f62fd1e22099d9e9ba1-d8df908e-8d0515cd'
+EMAIL_HOST_PASSWORD = ''
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
